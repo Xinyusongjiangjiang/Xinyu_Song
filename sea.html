@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>By the Sea | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#moments">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#moments">Home</a>
+        <a href="life.html">Life</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="sea-page-label">Stillness · Sea <span class="cn">安静 · 海边</span></p>
+        <h1 class="editable" data-edit-id="sea-page-title">By the Sea <span class="cn block">在海边</span></h1>
+        <p class="hero-text editable" data-edit-id="sea-page-intro">
+          A quieter page for the places where I slow down and notice details I
+          would usually miss.
+          <span class="cn block">这里放让我慢下来、重新注意日常细节的地方。</span>
+        </p>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="sea-main-photo">
+            <input type="file" accept="image/*" aria-label="Upload sea photo" />
+            <span>Sea photo<br><span class="cn">海边照片</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="sea-caption"><span>One photo, one thought<br><span class="cn">一张照片，一句话想法</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="sea-observation"><span>What I noticed when I slowed down<br><span class="cn">慢下来以后我注意到了什么</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

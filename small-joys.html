@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Small Joys | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#moments">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#moments">Home</a>
+        <a href="life.html">Life</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="joys-page-label">Music · Small Joys <span class="cn">音乐 · 小快乐</span></p>
+        <h1 class="editable" data-edit-id="joys-page-title">Small Joys <span class="cn block">小小的快乐</span></h1>
+        <p class="hero-text editable" data-edit-id="joys-page-intro">
+          A place for music, artists I like, and small ordinary things that keep
+          my life from becoming only schoolwork and projects.
+          <span class="cn block">这里放音乐、我喜欢的艺术家，以及让生活不只剩下学习和项目的小事。</span>
+        </p>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="joys-main-photo">
+            <input type="file" accept="image/*" aria-label="Upload music or small joy photo" />
+            <span>Music / small joy photo<br><span class="cn">音乐或小快乐照片</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="joys-caption"><span>Why this matters to me<br><span class="cn">为什么这对我重要</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="joys-balance"><span>How I stay serious without flattening my life<br><span class="cn">我如何认真，但不把生活压扁</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

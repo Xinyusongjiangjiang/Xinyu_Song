@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond Numbers | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#writing">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#writing">Home <span class="cn">首页</span></a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Beyond numbers <span class="cn">分数之外</span></p>
+        <h1>Skills That Do Not Fit in a Score <span class="cn block">无法只用分数呈现的能力</span></h1>
+        <p class="hero-text">Communication, collaboration, social awareness, and leadership in real settings.<span class="cn block">真实场景里的沟通、协作、社交敏感度和组织力。</span></p>
+      </section>
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="beyond-team-photo">
+            <input type="file" accept="image/*" />
+            <span>team / communication photo<br><span class="cn">团队或沟通相关照片</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="beyond-communication-detail"><span>Communication examples<br><span class="cn">沟通能力例子</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="beyond-leadership-detail"><span>Collaboration and leadership<br><span class="cn">协作和组织力</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

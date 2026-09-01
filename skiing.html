@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On Snow | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#moments">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#moments">Home</a>
+        <a href="life.html">Life</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="skiing-page-label">Motion · Skiing <span class="cn">行动 · 滑雪</span></p>
+        <h1 class="editable" data-edit-id="skiing-page-title">On Snow <span class="cn block">在雪上</span></h1>
+        <p class="hero-text editable" data-edit-id="skiing-page-intro">
+          A place for skiing videos, action photos, and the kind of attention I
+          feel when my body has to learn balance, speed, and recovery.
+          <span class="cn block">这里放滑雪视频、动作照片，以及我在身体学习平衡、速度和调整时感受到的专注。</span>
+        </p>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="skiing-main-media">
+            <input type="file" accept="image/*,video/*" aria-label="Upload skiing video or photo" />
+            <span>Skiing video / action photo<br><span class="cn">滑雪视频或动作照片</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="skiing-moment"><span>A moment on snow: speed, balance, falling, or trying again<br><span class="cn">雪上的一个瞬间：速度、平衡、摔倒，或再试一次</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="skiing-reflection"><span>What skiing shows about how I handle challenge outside school<br><span class="cn">滑雪如何呈现我在学习之外面对挑战的方式</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="skiing-caption"><span>Caption or location note<br><span class="cn">照片/视频说明或地点记录</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

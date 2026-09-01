@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papers & Research Notes | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#writing">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#writing">Home <span class="cn">首页</span></a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Research work <span class="cn">论文与研究</span></p>
+        <h1>Papers & Research Notes <span class="cn block">论文与研究笔记</span></h1>
+        <p class="hero-text">Research questions, abstracts, methods, and selected notes.<span class="cn block">研究问题、摘要、方法和精选笔记。</span></p>
+      </section>
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="papers-draft-photo">
+            <input type="file" accept="image/*" />
+            <span>paper draft / research notes<br><span class="cn">论文草稿或研究笔记</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="papers-abstract-detail"><span>Paper abstracts<br><span class="cn">论文摘要</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="papers-method-detail"><span>Questions, methods, and revisions<br><span class="cn">问题、方法和修改</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

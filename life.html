@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#questions">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#questions">Home</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="life-page-label">Human context <span class="cn">人的底色</span></p>
+        <h1 class="editable" data-edit-id="life-page-title">Life <span class="cn block">生活</span></h1>
+        <p class="hero-text editable" data-edit-id="life-page-intro">
+          A space for sea, skiing, travel, music, favorite celebrities, and
+          small observations that show who I am outside formal work.
+          <span class="cn block">这里放海边、滑雪、旅行、音乐、喜欢的明星，以及学习和项目之外的生活观察。</span>
+        </p>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="life-main-photo-page">
+            <input type="file" accept="image/*" aria-label="Upload life main photo" />
+            <span>Main life photo<br><span class="cn">生活主图</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="life-photo-caption-page"><span>One photo, one thought<br><span class="cn">一张照片，一句话想法</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="life-stars-page"><span>People / artists I admire<br><span class="cn">我喜欢或欣赏的人 / 艺术家</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="life-curiosity-page"><span>How these moments keep me curious<br><span class="cn">这些生活瞬间如何让我保持好奇</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

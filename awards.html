@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awards & Distinctions | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#writing">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#writing">Home <span class="cn">首页</span></a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Recognition <span class="cn">奖项与认可</span></p>
+        <h1>Awards & Distinctions <span class="cn block">奖项与荣誉</span></h1>
+        <p class="hero-text">Selected awards with context, not a long list.<span class="cn block">精选奖项，重点说明它们代表什么，而不是堆列表。</span></p>
+      </section>
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="awards-proof-photo">
+            <input type="file" accept="image/*" />
+            <span>award proof / certificate<br><span class="cn">奖项证明或证书</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="awards-list-detail"><span>Selected awards and dates<br><span class="cn">精选奖项和时间</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="awards-context-detail"><span>What these awards show<br><span class="cn">这些奖项体现了什么</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Profile | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#writing">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#writing">Home <span class="cn">首页</span></a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Academic profile <span class="cn">学术档案</span></p>
+        <h1>What Numbers Do Not Fully Show <span class="cn block">分数之外的学术档案</span></h1>
+        <p class="hero-text">
+          This page keeps the evidence, context, and longer explanations behind
+          the short cards on the homepage.
+          <span class="cn block">这一页用来承接首页短卡片背后的证据、背景和更完整的说明。</span>
+        </p>
+      </section>
+
+      <section class="section thought-map academic-detail-list">
+        <article class="thought-step" id="awards">
+          <div class="thought-node">01</div>
+          <div class="thought-copy">
+            <p class="eyebrow">Recognition <span class="cn">奖项与认可</span></p>
+            <h2>Awards & Distinctions <span class="cn block">奖项与荣誉</span></h2>
+            <p class="editable" data-edit-id="academic-detail-awards">
+              Space for selected awards, the context behind them, and what each
+              one shows about persistence, writing, research, or initiative.
+              <span class="cn block">这里放精选奖项、背后的背景，以及它们分别体现的坚持、写作、研究或主动性。</span>
+            </p>
+            <div class="thought-photo editable-photo" data-photo-id="academic-awards-photo">
+              <input type="file" accept="image/*" />
+              <span>award proof / certificate / 奖项证明或证书</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="thought-step" id="proposal">
+          <div class="thought-node">02</div>
+          <div class="thought-copy">
+            <p class="eyebrow">Public proposal <span class="cn">公共提案</span></p>
+            <h2>Education Mini-Programs in Schools <span class="cn block">教育小程序进入学校提案</span></h2>
+            <p class="editable" data-edit-id="academic-detail-proposal">
+              Space for the proposal's problem, policy route, evidence, and
+              why protected school trials matter before broader adoption.
+              <span class="cn block">这里放提案关注的问题、政策路径、证据，以及为什么正式推广前需要受控校内试点。</span>
+            </p>
+            <div class="thought-photo editable-photo" data-photo-id="academic-proposal-photo">
+              <input type="file" accept="image/*" />
+              <span>proposal document / process photo<br><span class="cn">提案文件或过程照片</span></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="thought-step" id="papers">
+          <div class="thought-node">03</div>
+          <div class="thought-copy">
+            <p class="eyebrow">Research work <span class="cn">论文与研究</span></p>
+            <h2>Papers & Research Notes <span class="cn block">论文与研究笔记</span></h2>
+            <p class="editable" data-edit-id="academic-detail-papers">
+              Space for paper titles, abstracts, research questions, methods,
+              and the limits or revisions I noticed while writing.
+              <span class="cn block">这里放论文题目、摘要、研究问题、方法，以及我在写作过程中发现的限制和修改。</span>
+            </p>
+            <div class="thought-photo editable-photo" data-photo-id="academic-papers-photo">
+              <input type="file" accept="image/*" />
+              <span>research notes / paper draft<br><span class="cn">研究笔记或论文草稿</span></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="thought-step" id="beyond">
+          <div class="thought-node">04</div>
+          <div class="thought-copy">
+            <p class="eyebrow">Beyond numbers <span class="cn">分数之外</span></p>
+            <h2>Skills That Do Not Fit in a Score <span class="cn block">无法只用分数呈现的能力</span></h2>
+            <p class="editable" data-edit-id="academic-detail-beyond">
+              Space for examples of communication, collaboration, social
+              awareness, and leadership in classrooms, teams, and conversations.
+              <span class="cn block">这里放沟通、协作、社交敏感度和组织力在课堂、团队和对话里的真实例子。</span>
+            </p>
+            <div class="thought-photo editable-photo" data-photo-id="academic-beyond-photo">
+              <input type="file" accept="image/*" />
+              <span>team / communication photo<br><span class="cn">团队或沟通相关照片</span></span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

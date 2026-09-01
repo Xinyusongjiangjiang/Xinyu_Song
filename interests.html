@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majors & Interests | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#questions">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#questions">Home</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="interests-page-label">Academic direction <span class="cn">学术方向</span></p>
+        <h1 class="editable" data-edit-id="interests-page-title">Majors & Interests <span class="cn block">专业与兴趣</span></h1>
+        <p class="hero-text editable" data-edit-id="interests-page-intro">
+          A space for explaining why economics and public policy both fit my
+          questions about education, opportunity, and real-world constraints.
+          <span class="cn block">这里解释为什么经济学和公共政策都能承接我对教育、机会和现实约束的关注。</span>
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="major-columns">
+          <div class="content-placeholder editable" data-edit-id="interests-econ-full">
+            <span>Economics as a method: fiscal capacity, public spending, resource allocation, marginal returns<br><span class="cn">经济学作为方法：财政能力、公共支出、资源配置、边际收益</span></span>
+          </div>
+          <div class="content-placeholder editable" data-edit-id="interests-policy-full">
+            <span>Public policy as implementation: how ideas become rules, pilots, safeguards, and real support<br><span class="cn">公共政策作为落地路径：想法如何变成规则、试点、保障机制和真实支持</span></span>
+          </div>
+          <div class="content-placeholder editable" data-edit-id="interests-bridge-full">
+            <span>Education as the question: how systems, teaching methods, and resources shape student opportunity<br><span class="cn">教育作为问题本身：体系、教学方式和资源如何影响学生机会</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="interests-main-visual">
+            <input type="file" accept="image/*" aria-label="Upload academic visual" />
+            <span>Visual area: notes, charts, screenshots, research page<br><span class="cn">视觉区：笔记、图表、截图、研究页</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="interests-example-1"><span>Research thread: comparing how different regions can convert education funding into actual learning conditions<br><span class="cn">研究线索：比较不同地区如何把教育经费转化成真实学习条件</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="interests-example-2"><span>Policy thread: asking what rules can protect students while still allowing useful tools to enter schools<br><span class="cn">政策线索：追问什么规则能保护学生，同时允许有用工具进入学校</span></span></div>
+            <div class="content-placeholder editable" data-edit-id="interests-future"><span>Future question: how to define fairness, weigh tradeoffs, and evaluate whether education policy narrows regional gaps<br><span class="cn">未来问题：如何定义公平、权衡利弊，并评估教育政策是否缩小地区差距</span></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

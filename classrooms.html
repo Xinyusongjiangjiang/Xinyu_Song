@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classrooms | Xinyu Song</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#questions">Xinyu Song</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html#questions">Home</a>
+      </nav>
+      <div class="edit-controls" aria-label="Editing controls">
+        <button type="button" id="edit-toggle">Edit</button>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow editable" data-edit-id="classroom-page-label">Starting point <span class="cn">起点</span></p>
+        <h1 class="editable" data-edit-id="classroom-page-title">Classrooms <span class="cn block">课堂</span></h1>
+        <p class="hero-text editable" data-edit-id="classroom-page-intro">
+          A space for teaching photos, classroom moments, what I did in class,
+          and what I noticed from students and teachers.
+          <span class="cn block">这里放支教照片、课堂瞬间、我在课堂里的表现，以及我从学生和老师身上观察到的东西。</span>
+        </p>
+      </section>
+
+      <section class="section detail-card">
+        <div class="placeholder-layout">
+          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="classroom-main-photo">
+            <input type="file" accept="image/*" aria-label="Upload main classroom photo" />
+            <span>Main classroom photo<br><span class="cn">课堂主图</span></span>
+          </div>
+          <div class="placeholder-stack">
+            <div class="content-placeholder editable" data-edit-id="classroom-performance">
+              <span>My role in class: teaching, explaining, leading activities<br><span class="cn">我在课堂中的表现：讲解、带活动、和学生互动</span></span>
+            </div>
+            <div class="content-placeholder editable" data-edit-id="classroom-moment">
+              <span>Specific moment: one student question or one class scene<br><span class="cn">具体瞬间：一个学生问题或一幕课堂场景</span></span>
+            </div>
+            <div class="content-placeholder editable" data-edit-id="classroom-reflection-page">
+              <span>Reflection: what this taught me about learning<br><span class="cn">反思：这件事让我如何理解学习</span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="major-columns">
+          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-1"><input type="file" accept="image/*" /><span>Gallery photo 1<br><span class="cn">照片 1</span></span></div>
+          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-2"><input type="file" accept="image/*" /><span>Gallery photo 2<br><span class="cn">照片 2</span></span></div>
+          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-3"><input type="file" accept="image/*" /><span>Gallery photo 3<br><span class="cn">照片 3</span></span></div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
