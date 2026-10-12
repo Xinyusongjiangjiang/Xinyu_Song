@@ -12,49 +12,57 @@
       <nav aria-label="Main navigation">
         <a href="index.html#questions">Home</a>
       </nav>
-      <div class="edit-controls" aria-label="Editing controls">
-        <button type="button" id="edit-toggle">Edit</button>
-        <button type="button" id="reset-content">Reset</button>
-      </div>
     </header>
 
     <main>
       <section class="page-hero">
-        <p class="eyebrow editable" data-edit-id="classroom-page-label">Starting point <span class="cn">起点</span></p>
-        <h1 class="editable" data-edit-id="classroom-page-title">Classrooms <span class="cn block">课堂</span></h1>
-        <p class="hero-text editable" data-edit-id="classroom-page-intro">
-          A space for teaching photos, classroom moments, what I did in class,
-          and what I noticed from students and teachers.
-          <span class="cn block">这里放支教照片、课堂瞬间、我在课堂里的表现，以及我从学生和老师身上观察到的东西。</span>
+        <p class="eyebrow editable" data-edit-id="classroom-page-label">Starting point</p>
+        <h1 class="editable" data-edit-id="classroom-page-title">Classrooms</h1>
+        <p class="hero-text editable" data-edit-id="classroom-page-intro-v2">
+          My classroom story has two sides: my life as a high school student,
+          and my experience teaching students in a classroom near my hometown.
         </p>
       </section>
 
-      <section class="section detail-card">
-        <div class="placeholder-layout">
-          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="classroom-main-photo">
-            <input type="file" accept="image/*" aria-label="Upload main classroom photo" />
-            <span>Main classroom photo<br><span class="cn">课堂主图</span></span>
+      <section class="section classroom-sections">
+        <article class="classroom-part">
+          <div class="classroom-part-heading">
+            <p class="eyebrow">Part 01</p>
+            <h2>High School Life</h2>
           </div>
-          <div class="placeholder-stack">
-            <div class="content-placeholder editable" data-edit-id="classroom-performance">
-              <span>My role in class: teaching, explaining, leading activities<br><span class="cn">我在课堂中的表现：讲解、带活动、和学生互动</span></span>
+          <div class="classroom-story-grid">
+            <div class="classroom-story-text editable" data-edit-id="classroom-high-school-feeling">
+              I started high school in a public school and was fairly quiet. After transferring to an international school, I gradually realized that its diverse and more personalized environment suited the way I learned and grew. Feeling understood and supported helped me become more confident and more willing to express myself.
             </div>
-            <div class="content-placeholder editable" data-edit-id="classroom-moment">
-              <span>Specific moment: one student question or one class scene<br><span class="cn">具体瞬间：一个学生问题或一幕课堂场景</span></span>
+            <div class="content-placeholder editable-photo" data-photo-id="classroom-high-school-1" data-static-src="assets/site-photos/photo-01.jpg"></div>
+            <div class="content-placeholder editable-photo" data-photo-id="classroom-high-school-2" data-static-src="assets/site-photos/photo-10.jpg"></div>
+            <div class="classroom-story-text editable" data-edit-id="classroom-high-school-feeling-2">
+              I began to take part in activities that I would once have avoided. Whether working with classmates, speaking in front of others, or trying something completely new, I learned that confidence often comes from participating before feeling fully ready.
             </div>
-            <div class="content-placeholder editable" data-edit-id="classroom-reflection-page">
-              <span>Reflection: what this taught me about learning<br><span class="cn">反思：这件事让我如何理解学习</span></span>
+            <div class="classroom-story-text editable" data-edit-id="classroom-high-school-feeling-3">
+              This experience also changed the way I see a classroom. I became more aware of how much a supportive environment can shape a student's willingness to ask questions, make mistakes, and believe that they belong.
             </div>
+            <div class="content-placeholder editable-photo" data-photo-id="classroom-high-school-3" data-static-src="assets/site-photos/photo-04.jpg"></div>
           </div>
-        </div>
-      </section>
+        </article>
 
-      <section class="section">
-        <div class="major-columns">
-          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-1"><input type="file" accept="image/*" /><span>Gallery photo 1<br><span class="cn">照片 1</span></span></div>
-          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-2"><input type="file" accept="image/*" /><span>Gallery photo 2<br><span class="cn">照片 2</span></span></div>
-          <div class="content-placeholder editable-photo" data-photo-id="classroom-gallery-3"><input type="file" accept="image/*" /><span>Gallery photo 3<br><span class="cn">照片 3</span></span></div>
-        </div>
+        <article class="classroom-part">
+          <div class="classroom-part-heading">
+            <p class="eyebrow">Part 02</p>
+            <h2>Teaching Practice</h2>
+          </div>
+          <div class="classroom-practice-layout">
+            <div class="classroom-photo-grid">
+              <div class="content-placeholder editable-photo" data-photo-id="classroom-teaching-1" data-static-src="assets/site-photos/photo-02.jpg"></div>
+              <div class="content-placeholder editable-photo" data-photo-id="classroom-teaching-2" data-static-src="assets/site-photos/classroom-teaching-scene.jpg"></div>
+            </div>
+            <div class="classroom-practice-reflection editable" data-edit-id="classroom-teaching-reflection">
+              I went to a primary school near my hometown to volunteer as a teacher, and I genuinely enjoyed the process of teaching. At the same time, I saw that having access to school does not necessarily mean having access to strong educational resources. The students had fewer materials and fewer opportunities, but their curiosity and desire to learn were unmistakable.
+              <br><br>
+              One moment I will never forget was teaching a young girl addition and subtraction. We counted on her fingers and worked through the same problem again and again. When she finally solved it on her own, I felt a sense of accomplishment that was difficult to describe. I had not simply taught her an answer; I had helped her reach it herself.
+            </div>
+          </div>
+        </article>
       </section>
     </main>
     <script src="script.js"></script>

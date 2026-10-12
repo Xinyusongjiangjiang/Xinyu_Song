@@ -12,33 +12,34 @@
       <nav aria-label="Main navigation">
         <a href="index.html#questions">Home</a>
       </nav>
-      <div class="edit-controls" aria-label="Editing controls">
-        <button type="button" id="edit-toggle">Edit</button>
-        <button type="button" id="reset-content">Reset</button>
-      </div>
     </header>
 
     <main>
       <section class="page-hero">
-        <p class="eyebrow editable" data-edit-id="life-page-label">Human context <span class="cn">人的底色</span></p>
-        <h1 class="editable" data-edit-id="life-page-title">Life <span class="cn block">生活</span></h1>
-        <p class="hero-text editable" data-edit-id="life-page-intro">
-          A space for sea, skiing, travel, music, favorite celebrities, and
-          small observations that show who I am outside formal work.
-          <span class="cn block">这里放海边、滑雪、旅行、音乐、喜欢的明星，以及学习和项目之外的生活观察。</span>
+        <p class="eyebrow editable" data-edit-id="life-page-label-v2">School life</p>
+        <h1 class="editable" data-edit-id="life-page-title-v3">My Time at School</h1>
+        <p class="hero-text editable" data-edit-id="life-page-intro-v4">
+          School has been more than classes for me. It is where my friends and I stay after school to prepare for competitions, work through difficult problems, and share small victories across the seasons. When studying leaves me restless, I often sit in the calligraphy room and write for a while. The steady rhythm of each stroke helps me slow down and return to my work with a clearer mind. These ordinary moments make school feel like a community, not only a place to study.
         </p>
       </section>
 
-      <section class="section detail-card">
-        <div class="placeholder-layout">
-          <div class="content-placeholder large-photo-slot editable-photo" data-photo-id="life-main-photo-page">
-            <input type="file" accept="image/*" aria-label="Upload life main photo" />
-            <span>Main life photo<br><span class="cn">生活主图</span></span>
+      <section class="section detail-card school-time-gallery">
+        <div class="life-gallery-group">
+          <p class="eyebrow">School days</p>
+          <div class="life-photo-grid">
+            <div class="content-placeholder life-photo-slot editable-photo" data-photo-id="life-school-photo-1" data-static-src="assets/site-photos/photo-01.jpg" data-static-alt="Working in a classroom"></div>
+            <div class="content-placeholder life-photo-slot editable-photo" data-photo-id="life-school-photo-2" data-static-src="assets/site-photos/photo-09.jpg" data-static-alt="A school activity"></div>
           </div>
-          <div class="placeholder-stack">
-            <div class="content-placeholder editable" data-edit-id="life-photo-caption-page"><span>One photo, one thought<br><span class="cn">一张照片，一句话想法</span></span></div>
-            <div class="content-placeholder editable" data-edit-id="life-stars-page"><span>People / artists I admire<br><span class="cn">我喜欢或欣赏的人 / 艺术家</span></span></div>
-            <div class="content-placeholder editable" data-edit-id="life-curiosity-page"><span>How these moments keep me curious<br><span class="cn">这些生活瞬间如何让我保持好奇</span></span></div>
+        </div>
+        <div class="life-gallery-group">
+          <p class="eyebrow">Calligraphy</p>
+          <div class="life-photo-grid calligraphy-photo-grid">
+            <figure class="life-photo-slot calligraphy-work">
+              <img src="assets/images/calligraphy-couplet-portrait.png" alt="Paired hanging calligraphy work" />
+            </figure>
+            <figure class="life-photo-slot calligraphy-work">
+              <img src="assets/images/calligraphy-scroll-portrait.png" alt="Vertical calligraphy scroll" />
+            </figure>
           </div>
         </div>
       </section>
