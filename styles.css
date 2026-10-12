@@ -1144,6 +1144,19 @@ h3 {
   overflow: hidden;
 }
 
+.life-gallery-group:first-child .life-photo-grid {
+  grid-template-columns: minmax(0, 1.45fr) minmax(220px, 0.8fr);
+  align-items: start;
+}
+
+.life-gallery-group:first-child .life-photo-slot:first-child {
+  aspect-ratio: 4 / 3;
+}
+
+.life-gallery-group:first-child .life-photo-slot:nth-child(2) {
+  aspect-ratio: 3 / 4;
+}
+
 .awards-archive {
   max-width: 1280px;
   margin-left: auto;
