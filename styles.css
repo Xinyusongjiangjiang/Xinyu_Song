@@ -1284,7 +1284,7 @@ h3 {
 }
 
 .score-unit-roundel:nth-child(1) .score-roundel {
-  --score: 98.333%;
+  --score: 90%;
   --rotation: 3deg;
 }
 
